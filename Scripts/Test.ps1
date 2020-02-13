@@ -1,6 +1,6 @@
 function testfuntion
 {
 
- get-service -computername $machine
+ Get-Service -ComputerName $machine
 
 }
