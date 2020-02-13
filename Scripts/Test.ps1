@@ -1,6 +1,6 @@
 function testfuntion
 {
 
-Write-Host "Testing.........................."
+ get-service -machinename $machine
 
 }
