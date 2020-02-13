@@ -7,7 +7,7 @@
 
         Title="MainWindow" Height="558" Width="800">
     <Grid x:Name="Grid" Margin="0,0,-3,0">
-        <Label x:Name="Label" Content="SCCM Powershell Tool - Microland" HorizontalAlignment="Left" Margin="184,1,0,0" VerticalAlignment="Top" Width="404.993" Height="38.96" FontSize="24" FontWeight="Bold" Background="White" Foreground="#FFFF8000"/>
+        <Label x:Name="Label" Content="SCCM Powershell Tool - Microland" HorizontalAlignment="Left" Margin="184,1,0,0" VerticalAlignment="Top" Width="404.993" Height="38.96" FontSize="24" FontWeight="Bold" Background="White" Foreground="green"/>
         <TextBox x:Name="CollIDbox" HorizontalAlignment="Left" Height="21.667" Margin="119.5,314.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="119.25"/>
         <Label x:Name="CollIDlbl" Content="Collection ID&#x9;" HorizontalAlignment="Left" Margin="4.667,316.002,0,0" VerticalAlignment="Top" Width="89.326" Height="24.793"/>
         <Label x:Name="SCCMServerLbl_Copy" Content="SCCM Site Code" HorizontalAlignment="Left" Margin="4.667,119.334,0,0" VerticalAlignment="Top" Width="97.326" Height="24.793"/>
