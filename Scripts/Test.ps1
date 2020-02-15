@@ -4,7 +4,6 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
-
         Title="MainWindow" Height="620" Width="975.5" ResizeMode="NoResize">
     <Grid x:Name="Grid" Margin="0,0,-3,0">
         <Label x:Name="Label" Content="SCCM Powershell Tool - Microland" HorizontalAlignment="Left" Margin="243,3.833,0,0" VerticalAlignment="Top" Width="415.16" Height="41.127" FontSize="24" FontWeight="Bold" Background="White" Foreground="#FFFF8000"/>
@@ -36,7 +35,7 @@
         <TextBox x:Name="Line" HorizontalAlignment="Left" Height="2.875" Margin="0.167,51.496,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="967.333" Background="#FF0074FF"/>
         <Button x:Name="Help" Content="TOOL HELP" HorizontalAlignment="Left" Margin="251.667,366.5,0,0" VerticalAlignment="Top" Width="121" Height="32.96" BorderBrush="White" Background="#FFFF9700" FontWeight="Bold" FontSize="14"/>
         <Button x:Name="vivekrr" Content="www.vivekrr.com" HorizontalAlignment="Left" Margin="836.75,31,0,0" VerticalAlignment="Top" Width="122.5" BorderBrush="White" Background="White" Foreground="#FF002EFF" FontWeight="Bold"/>
-        <RichTextBox x:Name="output" HorizontalAlignment="Left" Height="170" Margin="15,408,0,0" VerticalAlignment="Top" Width="943">
+        <RichTextBox x:Name="output" HorizontalScrollBarVisibility="Auto" HorizontalAlignment="Left" Height="170" Margin="15,408,0,0" VerticalAlignment="Top" Width="943">
             <FlowDocument/>
         </RichTextBox>
     </Grid>
