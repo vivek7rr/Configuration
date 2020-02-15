@@ -13,7 +13,6 @@
         <TextBox x:Name="SiteNameBox" HorizontalAlignment="Left" Height="21" Margin="120.5,137.833,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <RadioButton x:Name="Addcoll" Content="Add to Collection" HorizontalAlignment="Left" Margin="255,320.333,0,0" VerticalAlignment="Top" Width="124.706" Height="22.96"/>
         <RadioButton x:Name="Delcollection" Content="Delete from Collection" HorizontalAlignment="Left" Margin="395.333,318.833,0,0" VerticalAlignment="Top" Width="142.039" Height="22.96"/>
-        <TextBox x:Name="output" ScrollViewer.HorizontalScrollBarVisibility="Auto"  HorizontalAlignment="Left" Height="160.5" Margin="9.5,411.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="945.5"/>
         <Label x:Name="Inputfromtext" Content="Input Item (.txt)" HorizontalAlignment="Left" Margin="6.167,184.834,0,0" VerticalAlignment="Top" Width="97.326" Height="24.793"/>
         <Button x:Name="browse" Content="Browse" HorizontalAlignment="Left" Margin="121.5,187.665,0,0" VerticalAlignment="Top" Width="119"/>
         <Label x:Name="ServerNameLbl" Content="SCCM Server" HorizontalAlignment="Left" Margin="4.667,103.334,0,0" VerticalAlignment="Top" Width="97.326" Height="24.793"/>
@@ -36,5 +35,8 @@
         <TextBox x:Name="Line" HorizontalAlignment="Left" Height="2.875" Margin="0.167,51.496,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="967.333" Background="#FF0074FF"/>
         <Button x:Name="Help" Content="TOOL HELP" HorizontalAlignment="Left" Margin="251.667,366.5,0,0" VerticalAlignment="Top" Width="121" Height="32.96" BorderBrush="White" Background="#FFFF9700" FontWeight="Bold" FontSize="14"/>
         <Button x:Name="vivekrr" Content="www.vivekrr.com" HorizontalAlignment="Left" Margin="836.75,31,0,0" VerticalAlignment="Top" Width="122.5" BorderBrush="White" Background="White" Foreground="#FF002EFF" FontWeight="Bold"/>
+        <RichTextBox x:Name="output" HorizontalScrollBarVisibility="Auto" HorizontalAlignment="Left" Height="170" Margin="15,408,0,0" VerticalAlignment="Top" Width="943">
+            <FlowDocument/>
+        </RichTextBox>
     </Grid>
 </Window>
