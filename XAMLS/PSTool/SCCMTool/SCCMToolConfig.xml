@@ -4,16 +4,16 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
-        Title="MainWindow" Height="620" Width="975.5">
+        Title="MainWindow" Height="620" Width="975.5" ResizeMode="NoResize">
     <Grid x:Name="Grid" Margin="0,0,-3,0">
-        <Label x:Name="Label" Content="SCCM Powershell Tool - Microland" HorizontalAlignment="Left" Margin="184,3.833,0,0" VerticalAlignment="Top" Width="415.16" Height="41.127" FontSize="24" FontWeight="Bold" Background="White" Foreground="#FFFF8000"/>
+        <Label x:Name="Label" Content="SCCM Powershell Tool - Microland" HorizontalAlignment="Left" Margin="243,3.833,0,0" VerticalAlignment="Top" Width="415.16" Height="41.127" FontSize="24" FontWeight="Bold" Background="White" Foreground="#FFFF8000"/>
         <TextBox x:Name="CollIDbox" HorizontalAlignment="Left" Height="21.667" Margin="119.5,316.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="119.25"/>
         <Label x:Name="CollIDlbl" Content="Collection ID&#x9;" HorizontalAlignment="Left" Margin="4.667,318.002,0,0" VerticalAlignment="Top" Width="89.326" Height="24.793"/>
         <Label x:Name="SCCMServerLbl_Copy" Content="SCCM Site Code" HorizontalAlignment="Left" Margin="4.667,135.834,0,0" VerticalAlignment="Top" Width="97.326" Height="24.793"/>
         <TextBox x:Name="SiteNameBox" HorizontalAlignment="Left" Height="21" Margin="120.5,137.833,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <RadioButton x:Name="Addcoll" Content="Add to Collection" HorizontalAlignment="Left" Margin="255,320.333,0,0" VerticalAlignment="Top" Width="124.706" Height="22.96"/>
         <RadioButton x:Name="Delcollection" Content="Delete from Collection" HorizontalAlignment="Left" Margin="395.333,318.833,0,0" VerticalAlignment="Top" Width="142.039" Height="22.96"/>
-        <TextBox x:Name="output" HorizontalAlignment="Left" Height="160.5" Margin="9.5,411.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="945.5"/>
+        <TextBox x:Name="output" ScrollViewer.HorizontalScrollBarVisibility="Auto"  HorizontalAlignment="Left" Height="160.5" Margin="9.5,411.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="945.5"/>
         <Label x:Name="Inputfromtext" Content="Input Item (.txt)" HorizontalAlignment="Left" Margin="6.167,184.834,0,0" VerticalAlignment="Top" Width="97.326" Height="24.793"/>
         <Button x:Name="browse" Content="Browse" HorizontalAlignment="Left" Margin="121.5,187.665,0,0" VerticalAlignment="Top" Width="119"/>
         <Label x:Name="ServerNameLbl" Content="SCCM Server" HorizontalAlignment="Left" Margin="4.667,103.334,0,0" VerticalAlignment="Top" Width="97.326" Height="24.793"/>
