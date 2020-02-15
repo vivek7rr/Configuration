@@ -24,7 +24,7 @@
         <RadioButton x:Name="Rerundeploy" Content="Re-run Deployment" HorizontalAlignment="Left" Margin="254.666,316.333,0,0" VerticalAlignment="Top" Width="124.706" Height="22.96"/>
         <RadioButton x:Name="Deployinfo" Content="Get-Deployment Information" HorizontalAlignment="Left" Margin="396.666,314.833,0,0" VerticalAlignment="Top" Width="175.372" Height="22.96"/>
         <Label x:Name="SingleMachine" Content="Single Machine" HorizontalAlignment="Left" Margin="8.167,240.334,0,0" VerticalAlignment="Top" Width="97.326" Height="24.793"/>
-        <TextBox x:Name="Singlemachine" HorizontalAlignment="Left" Height="21" Margin="120.5,244.333,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Singlemachinebox" HorizontalAlignment="Left" Height="21" Margin="120.5,244.333,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="updateserver" Content="Update Input" HorizontalAlignment="Left" Margin="261,124,0,0" VerticalAlignment="Top" Width="102" Height="52.96" BorderBrush="White" Background="#FFEEEEEE"/>
         <Button x:Name="updateinout" Content="Update Input" HorizontalAlignment="Left" Margin="261,206,0,0" VerticalAlignment="Top" Width="102" Height="58.96" BorderBrush="White" Background="#FFEEEEEE"/>
         <Button x:Name="start" Content="Process" HorizontalAlignment="Left" Margin="583,164.5,0,0" VerticalAlignment="Top" Width="91" Height="63.96" FontSize="20" FontWeight="Bold" BorderBrush="White" Background="#FF0EE68E"/>
