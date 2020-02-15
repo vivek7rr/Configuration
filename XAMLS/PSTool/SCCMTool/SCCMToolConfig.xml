@@ -35,7 +35,7 @@
         <TextBox x:Name="Line" HorizontalAlignment="Left" Height="2.875" Margin="0.167,51.496,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="967.333" Background="#FF0074FF"/>
         <Button x:Name="Help" Content="TOOL HELP" HorizontalAlignment="Left" Margin="251.667,366.5,0,0" VerticalAlignment="Top" Width="121" Height="32.96" BorderBrush="White" Background="#FFFF9700" FontWeight="Bold" FontSize="14"/>
         <Button x:Name="vivekrr" Content="www.vivekrr.com" HorizontalAlignment="Left" Margin="836.75,31,0,0" VerticalAlignment="Top" Width="122.5" BorderBrush="White" Background="White" Foreground="#FF002EFF" FontWeight="Bold"/>
-        <RichTextBox x:Name="output" HorizontalScrollBarVisibility="Auto" HorizontalAlignment="Left" Height="170" Margin="15,408,0,0" VerticalAlignment="Top" Width="943">
+        <RichTextBox x:Name="Ritchout" HorizontalScrollBarVisibility="Auto" HorizontalAlignment="Left" Height="170" Margin="15,408,0,0" VerticalAlignment="Top" Width="943">
             <FlowDocument/>
         </RichTextBox>
     </Grid>
