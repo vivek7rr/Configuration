@@ -35,6 +35,6 @@
         <Button x:Name="Report" Content="Reports" HorizontalAlignment="Left" Margin="122.491,366.33,0,0" VerticalAlignment="Top" Width="105" Height="33.96" FontSize="20" FontWeight="Bold" BorderBrush="White" Background="#FF12D4FF"/>
         <TextBox x:Name="Line" HorizontalAlignment="Left" Height="2.875" Margin="0.167,48.496,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="967.333" Background="#FF0074FF"/>
         <Button x:Name="Help" Content="TOOL HELP" HorizontalAlignment="Left" Margin="251.667,366.5,0,0" VerticalAlignment="Top" Width="121" Height="32.96" BorderBrush="White" Background="#FFFF9700" FontWeight="Bold" FontSize="14"/>
-        <Label x:Name="Vivek" Hyperlink.Click="wwww.vivekrr.com" Content="Author : www.vivekrr.com" HorizontalAlignment="Left" Margin="802.667,20.999,0,0" VerticalAlignment="Top" Width="163.994" FontWeight="Bold" Background="White" Foreground="#FF00B9FF"/>
+        <Label x:Name="Vivek" Hyperlink.RequestNavigate="wwww.vivekrr.com" Content="Author : www.vivekrr.com" HorizontalAlignment="Left" Margin="802.667,20.999,0,0" VerticalAlignment="Top" Width="163.994" FontWeight="Bold" Background="White" Foreground="#FF00B9FF"/>
     </Grid>
 </Window>
