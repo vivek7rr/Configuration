@@ -1,10 +1,9 @@
-<Window x:Name="MainWindows"
+<Window x:Name="Powershell_Tool"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
-
         Title="MainWindow" Height="620" Width="975.5" ResizeMode="NoResize">
     <Grid x:Name="Grid" Margin="0,0,-3,0">
         <Label x:Name="Label" Content="Powershell Tool - Microland" HorizontalAlignment="Left" Margin="261,3.833,0,0" VerticalAlignment="Top" Width="347.66" Height="41.127" FontSize="24" FontWeight="Bold" Background="White" Foreground="#FFFF0606"/>
@@ -36,12 +35,10 @@
         <Button x:Name="Help" Content="Tool Help" HorizontalAlignment="Left" Margin="294.667,366.125,0,0" VerticalAlignment="Top" Width="121" Height="32.96" BorderBrush="White" Background="#FF00D1FF" FontSize="18" FontWeight="Bold"/>
         <Button x:Name="Refresh" Content="Refresh Data" HorizontalAlignment="Left" Margin="456.502,366.125,0,0" VerticalAlignment="Top" Width="136.333" Height="32.96" BorderBrush="White" Background="#FF00D1FF" FontWeight="Bold" FontSize="18"/>
         <TextBox x:Name="Line" HorizontalAlignment="Left" Height="2.875" Margin="0.167,51.496,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="967.333" Background="#FF0074FF"/>
-        <Button x:Name="vivekrr" Content="www.vivekrr.com" HorizontalAlignment="Left" Margin="856.75,31.666,0,0" VerticalAlignment="Top" Width="111.833" BorderBrush="White" Background="White" Foreground="#FF002EFF" FontWeight="Bold"/>
+        <Button x:Name="vivekrr" Content="www.vivekrr.com" HorizontalAlignment="Left" Margin="852.748,31.666,0,0" VerticalAlignment="Top" Width="111.833" BorderBrush="White" Background="White" Foreground="#FF002EFF" FontWeight="Bold"/>
         <TextBox x:Name="Outbox" IsReadOnly="False" HorizontalAlignment="Left" Height="157" Margin="14,422,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="941"/>
         <ProgressBar x:Name="ActProgress" HorizontalAlignment="Left" Height="11.5" Margin="14.5,410,0,0" VerticalAlignment="Top" Width="940.667"/>
         <RadioButton x:Name="ADMachine" Content="AD Machine Details" HorizontalAlignment="Left" Margin="735.666,189.833,0,0" VerticalAlignment="Top" Width="124.706" Height="22.96"/>
         <Button x:Name="setReport" Content="Set Report Path" HorizontalAlignment="Left" Margin="633.194,366.169,0,0" VerticalAlignment="Top" Width="153.667" Height="32.96" BorderBrush="White" Background="#FF00D1FF" FontWeight="Bold" FontSize="18"/>
-
-
     </Grid>
 </Window>
