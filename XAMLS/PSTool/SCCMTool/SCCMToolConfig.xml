@@ -1,10 +1,10 @@
-<Window x:Name="MainWindows"
+<Window x:Name="MainWindows" x:Class="WpfApp1.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
-  
+        mc:Ignorable="d"
         Title="MainWindow" Height="620" Width="975.5" ResizeMode="NoResize">
     <Grid x:Name="Grid" Margin="0,0,-3,0">
         <Label x:Name="Label" Content="SCCM Powershell Tool - Microland" HorizontalAlignment="Left" Margin="243,3.833,0,0" VerticalAlignment="Top" Width="415.16" Height="41.127" FontSize="24" FontWeight="Bold" Background="White" Foreground="#FFFF8000"/>
@@ -37,12 +37,8 @@
         <Button x:Name="Refresh" Content="Refresh Data" HorizontalAlignment="Left" Margin="392.667,366.5,0,0" VerticalAlignment="Top" Width="121" Height="32.96" BorderBrush="White" Background="#FFFF9700" FontWeight="Bold" FontSize="14"/>
         <TextBox x:Name="Line" HorizontalAlignment="Left" Height="2.875" Margin="0.167,51.496,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="967.333" Background="#FF0074FF"/>
         <Button x:Name="vivekrr" Content="www.vivekrr.com" HorizontalAlignment="Left" Margin="836.75,31,0,0" VerticalAlignment="Top" Width="122.5" BorderBrush="White" Background="White" Foreground="#FF002EFF" FontWeight="Bold"/>
-        <TextBox x:Name="Outbox" IsReadOnly="False" HorizontalAlignment="Left" Height="168" Margin="14,411,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="941"/>
-        <TextBox x:Name="Progress1" IsEnabled="False" HorizontalAlignment="Left" Height="6" Margin="14.333,405.002,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="244.082" BorderBrush="White"/>
-        <TextBox x:Name="Progress2" IsEnabled="False" HorizontalAlignment="Left" Height="6" Margin="258.486,405.048,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="244.082" BorderBrush="White"/>
-        <TextBox x:Name="Progress3" IsEnabled="False" HorizontalAlignment="Left" Height="6" Margin="502.748,404.946,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="244.08" BorderBrush="White"/>
-        <TextBox x:Name="Progress4" IsEnabled="False" HorizontalAlignment="Left" Height="6" Margin="746.938,404.958,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207.955" BorderBrush="White"/>
-        <ProgressBar x:Name="ActProgress" HorizontalAlignment="Left" Height="37" Margin="685.5,100,0,0" VerticalAlignment="Top" Width="232"/>
+        <TextBox x:Name="Outbox" IsReadOnly="False" HorizontalAlignment="Left" Height="157" Margin="14,422,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="941"/>
+        <ProgressBar x:Name="ActProgress" HorizontalAlignment="Left" Height="16" Margin="14.5,405.5,0,0" VerticalAlignment="Top" Width="940.667"/>
 
 
     </Grid>
